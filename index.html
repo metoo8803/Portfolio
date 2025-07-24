@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <div class="intro-container">
+                <div class="intro-text">
+                    <h1 class="intro-name">Jupally Yashwanth</h1>
+                    <p class="intro-description">Hi there 👋, I'm Yashwanth Rao
+I'm passionate about artificial intelligence and its potential to solve real-world problems. I love exploring new technologies, building intelligent systems, and constantly pushing myself to learn and grow. With a strong foundation in machine learning and software development, I enjoy working on innovative projects that blend creativity with technical skill. I'm eager to collaborate with like-minded professionals and contribute to impactful, forward-thinking solutions in the tech world.</p>
+                    <div class="intro-buttons">
+                        <a href="https://www.linkedin.com/in/jupally-yashwanth-rao-464b66269/" class="btn btn-primary" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/metoo8803" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="docs/Yashwanth_Resume.pdf" class="btn btn-outline" download><i class="fas fa-file-pdf"></i> Resume</a>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <div class="image-container">
+                        <img src="img/photo1.jpg" alt="Profile Photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <!-- Technical Skills Card -->
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fas fa-code icon-large"></i>
+                            <h3>Technical Skills</h3>
+                            <p>Click to see my technical proficiencies</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <h3>Technical Skills</h3>
+                            <div class="skill-progress">
+                                <label>FULLSTACK</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+                            </div>
+                            <div class="skill-progress">
+                                <label>JAVA</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+
+                            </div>
+                            <div class="skill-progress">
+                                <label>SQL</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+
+                            </div>
+                            <div class="skill-progress">
+                                <label>PYTHON</label>
+                                <div class="progress-bar"><span style="width: 90%"></span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools Card -->
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fas fa-tools icon-large"></i>
+                            <h3>Tools</h3>
+                            <p>Click to see tools I'm proficient with</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <h3>Tools</h3>
+                            <div class="skill-progress">
+                                <label>GIT</label>
+                                <div class="progress-bar"><span style="width: 80%"></span></div>
+                                
+                            </div>
+                            <div class="skill-progress">
+                                <label>VISUAL STUDIO</label>
+                                <div class="progress-bar"><span style="width: 80%"></span></div>
+                                
+                            </div>
+                            <div class="skill-progress">
+                                <label>FLASK</label>
+                                <div class="progress-bar"><span style="width: 90%"></span></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Organizational Skills Card -->
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fas fa-users icon-large"></i>
+                            <h3>Organizational Skills</h3>
+                            <p>Click to see my soft skills</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <h3>Organizational Skills</h3>
+                            <div class="skill-progress">
+                                <label>COMMUNICATION</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+                                
+                            </div>
+                            <div class="skill-progress">
+                                <label>LEADERSHIP</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+                                
+                            </div>
+                            <div class="skill-progress">
+                                <label>TIME MANAGEMENT</label>
+                                <div class="progress-bar"><span style="width: 100%"></span></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <button class="scroll-btn left" onclick="scrollProjects(-1)"><i class="fas fa-chevron-left"></i></button>
+                <div class="projects-scroller">
+                    <div class="project-card">
+                        <img src="img/photo2.jpg" alt="Project 1">
+                        <h3>AI Interview SImulator</h3>
+                        <p>AI-powered tool simulating interviews to enhance preparation and performance.</p>
+                        <a href="https://github.com/metoo8803" class="btn btn-primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/photo3.png" alt="Project 2">
+                        <h3>House Price Predictior</h3>
+                        <p>ML-based web app estimating house prices from property details.</p>
+                        <a href="https://github.com/metoo8803/house_price_prediction" class="btn btn-primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/photo4.png" alt="Project 3">
+                        <h3>Portfolio Website</h3>
+                        <p>Showcases skills, projects, and earned certifications.</p>
+                        <a href="https://github.com/metoo8803/Portfolio" class="btn btn-primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 4">
+                        <h3>Comming soon</h3>
+                        <p></p>
+                        <a href="https://github.com/metoo8803" class="btn btn-primary">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/300x200" alt="Project 5">
+                        <h3>Comming soon</h3>
+                        <p></p>
+                        <a href="https://github.com/metoo8803" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollProjects(1)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Certifications Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience & Certifications</h2>
+            <div class="experience-container">
+                <button class="scroll-btn left" onclick="scrollExperience(-1)"><i class="fas fa-chevron-left"></i></button>
+                <div class="experience-scroller">
+                    <div class="experience-card">
+                        <h3>Jr Data Scientist</h3>
+                        <p class="company">Prahas Technologies.</p>
+                        <p class="duration">Feb 2025 - Mar 2025</p>
+                        <p>Curated datasets, applied preprocessing, and supported TTS model training with automation and ETL understanding.</p>
+                        <a href="docs/prahas.pdf" class="btn btn-outline" download>Download</a>
+                    </div>
+                    <div class="experience-card">
+                        <h3>Freelance Independent Contractor</h3>
+                        <p class="company">Chegg India</p>
+                        <p class="duration">Sep 2023 - Oct 2023</p>
+                        <p>Solved academic queries for students, providing clear explanations and subject expertise as a freelance educator.</p>
+                        <a href="docs/Chegg.pdf" class="btn btn-outline" download>Download</a>
+                    </div>
+                    <div class="experience-card">
+                        <h3>Smart Interviews Smart Coder</h3>
+                        <p class="company">Smart Interviews</p>
+                        <p class="duration">Issued: Jun 2024</p>
+                        <p>Demonstrates strong proficiency in data structures and algorithms through rigorous assessment.</p>
+                        <a href="docs/smart_interviews.pdf" class="btn btn-outline" download>Download</a>
+                    </div>
+                    <div class="experience-card">
+                        <h3>Google Ads Search</h3>
+                        <p class="company">Google</p>
+                        <p class="duration">Issued: July 2025</p>
+                        <p>Certified in Google Ads Search with expertise in online advertising strategies.</p>
+                        <a href="docs/google_ads_search.pdf" class="btn btn-outline" download>Download</a>
+                    </div>
+                    <div class="experience-card">
+                        <h3>Pearson MePro Level 9 Proficient</h3>
+                        <p class="company">Pearson</p>
+                        <p class="duration">Issued: Sep 2022</p>
+                        <p>Certified advanced English proficiency with strong communication skills at Level 9.</p>
+                        <a href="docs/pearson.pdf" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <button class="scroll-btn right" onclick="scrollExperience(1)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jyr8803@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(+91) 9989977771</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
